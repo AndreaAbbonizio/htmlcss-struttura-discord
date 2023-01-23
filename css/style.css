@@ -92,8 +92,80 @@
 
 
 /* main */
-.image-content{
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 250px;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 250px;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.container5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 110px;
+}
+
+
+.image-content1{
     width: 530px;
     height: 390px;
     background-color: yellow;
+}
+
+.text-content1{
+    width: 370px;
+    height: 380px;
+    background-color: aqua;
+}
+
+.text-content2{
+    width: 340px;
+    height: 260px;
+    background-color: darkblue;
+}
+
+.image-content2{
+    width: 550px;
+    height: 370px;
+    background-color: red;
+}
+
+.text-content3{
+    width: 880px;
+    height: 135px;
+    background-color: green;
+}
+
+.image-content3{
+    width: 960px;
+    height: 500px;
+    background-color: red;
+}
+
+#final-text{
+    width: 420px;
+    height: 30px;
+    background-color: blue;
+}
+
+#download-button{
+    width: 175px;
+    height: 45px;
+    background-color: yellowgreen;
 }
