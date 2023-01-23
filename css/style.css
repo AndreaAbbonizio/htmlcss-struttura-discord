@@ -5,6 +5,7 @@
 
 
 
+/* navbar */
 #nav-inner{
     display: flex;
     flex-direction: row;
@@ -23,7 +24,7 @@
 }
 
 
-#logo{
+.logo{
     width: 100px;
     height: 80px;
     background-color: darkgreen;
@@ -88,6 +89,8 @@
     width: 240px;
     height: 55px;
 }
+
+
 
 
 
@@ -168,4 +171,68 @@
     width: 175px;
     height: 45px;
     background-color: yellowgreen;
+}
+
+
+#back-footer{
+    width: 1300px;
+    height: 550px;
+    background-color:#23272a;
+
+}
+
+#container-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    border-bottom: 2px solid blue;
+}
+
+#back-footer ul{
+    list-style-type: none;
+
+}
+
+
+#social-links{
+    width: 214px;
+    height: 140px;
+    background-color: yellow;
+}
+
+
+.list1 {
+    width: 100px;
+    height: 175px;
+    background-color: green;
+}
+
+
+
+#list2{
+    width: 110px;
+    height: 345px;
+    background-color: red;
+}
+
+
+
+/* footer */
+hr{
+    color: blue;
+    
+}
+
+#footer-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+#login-final{
+    width: 75px;
+    height: 30px;
+    background-color: darkgrey;
 }
