@@ -13,6 +13,8 @@
     width: 100%;
     height: 80px;
     background-color: green;
+
+    margin-bottom: 120px
 }
 
 
@@ -56,3 +58,42 @@
     background-color: darkgreen;
 }
 
+
+
+/* header */
+#flex-head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 90px;
+}
+
+
+#title{
+    width: 480px;
+    height: 60px;
+    background-color: blue;
+}
+
+#paragraph{
+    width: 670px;
+    height: 80px;
+
+    background-color: red;
+}
+
+
+#container-button button{
+    width: 240px;
+    height: 55px;
+}
+
+
+
+/* main */
+.image-content{
+    width: 530px;
+    height: 390px;
+    background-color: yellow;
+}
